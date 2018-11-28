@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+	<h1 class="text-center display-1 mb-3">Home</h1>
+	<p>This is first context variable: <strong>{{ context_variable }}</strong></p>
+	<p>This is second context variable: <strong>{{ num }}</strong></p>
+	<p>User is: <strong>{{ request.user }}</strong></p>
+
+{% endblock %}
